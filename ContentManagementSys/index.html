@@ -1,0 +1,31 @@
+<!-- CREATE DATABASE cms;
+USE cms;
+CREATE TABLE articles(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    content TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+); -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>CMS</h1>
+    <form action="create.php" method="post">
+        <label for="title">Title:</label>
+        <input type="text" name="title" required><br>
+        <label for="content">Content:</label>
+        <textarea name="content" required></textarea><br>
+        <button type="submit">Create</button>
+    </form>
+    <div class="viewAll">
+        <a href="view.php"><button>View All Articles!</button></a>
+    </div>
+</body>
+</html>
