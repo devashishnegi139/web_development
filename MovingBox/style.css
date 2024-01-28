@@ -1,0 +1,29 @@
+.box1{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 500px;
+    left: 500px;
+}
+
+#uButton{
+    position: absolute;
+    left: 70px;
+    top: 10px;
+}
+#dButton{
+    position: absolute;
+    left: 60px;
+    top: 40px;
+}
+#lButton{
+    position: absolute;
+    left: 15px;
+    top: 40px;
+}
+#rButton{
+    position: absolute;
+    left: 120px;
+    top: 40px;
+}
