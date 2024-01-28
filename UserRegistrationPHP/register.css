@@ -1,0 +1,37 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+input[type="submit"]{
+    background-color: rgb(105, 24, 74);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 50px rgba(181, 216, 78, 0.425);
+}
+
+input[type="submit"]:hover{
+    background-color: rgb(78, 27, 126);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 50px rgba(78, 118, 216, 0.5);
+}
+
+input[type="text"], input[type="password"]{
+    border: 0.5px solid black;
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 300px;
+    box-shadow: 0px 0px 100px rgba(70, 62, 181, 0.514);
+}
